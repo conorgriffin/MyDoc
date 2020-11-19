@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA64D21C2566736C00CDF504 /* MyDocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64D21B2566736C00CDF504 /* MyDocApp.swift */; };
-		EA64D21E2566736C00CDF504 /* MyDocDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64D21D2566736C00CDF504 /* MyDocDocument.swift */; };
+		EA64D21E2566736C00CDF504 /* MyDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64D21D2566736C00CDF504 /* MyDoc.swift */; };
 		EA64D2202566736C00CDF504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64D21F2566736C00CDF504 /* ContentView.swift */; };
 		EA64D2222566736E00CDF504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA64D2212566736E00CDF504 /* Assets.xcassets */; };
 		EA64D2252566736E00CDF504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA64D2242566736E00CDF504 /* Preview Assets.xcassets */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		EA64D2182566736C00CDF504 /* MyDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA64D21B2566736C00CDF504 /* MyDocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocApp.swift; sourceTree = "<group>"; };
-		EA64D21D2566736C00CDF504 /* MyDocDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocDocument.swift; sourceTree = "<group>"; };
+		EA64D21D2566736C00CDF504 /* MyDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoc.swift; sourceTree = "<group>"; };
 		EA64D21F2566736C00CDF504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA64D2212566736E00CDF504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA64D2242566736E00CDF504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				EA64D21B2566736C00CDF504 /* MyDocApp.swift */,
-				EA64D21D2566736C00CDF504 /* MyDocDocument.swift */,
+				EA64D21D2566736C00CDF504 /* MyDoc.swift */,
 				EA64D21F2566736C00CDF504 /* ContentView.swift */,
 				EA64D2212566736E00CDF504 /* Assets.xcassets */,
 				EA64D2262566736E00CDF504 /* Info.plist */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA64D21C2566736C00CDF504 /* MyDocApp.swift in Sources */,
-				EA64D21E2566736C00CDF504 /* MyDocDocument.swift in Sources */,
+				EA64D21E2566736C00CDF504 /* MyDoc.swift in Sources */,
 				EA64D2202566736C00CDF504 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

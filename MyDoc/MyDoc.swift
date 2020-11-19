@@ -14,7 +14,7 @@ extension UTType {
     }
 }
 
-struct MyDocDocument: FileDocument {
+struct MyDoc: FileDocument {
     var text: String
 
     init(text: String = "Hello, world!") {

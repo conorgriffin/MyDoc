@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct MyDocApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: MyDocDocument()) { file in
+        DocumentGroup(viewing: MyDoc.self) { file in
             ContentView(document: file.$document)
         }
     }
